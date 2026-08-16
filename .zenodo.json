@@ -1,0 +1,23 @@
+{
+  "title": "TransDANN-Surv: When Domain-Adversarial Training (GRL/DANN) Fails in Cross-Population Cancer Survival Prediction",
+  "description": "Large-scale mechanistic evidence that gradient-reversal domain-adversarial training (GRL/DANN) fails to improve cross-population cancer survival prediction: the distribution of cohort-level covariates (age, stage, event rate), of which missingness patterns are only the most visible surface, is the fundamental domain fingerprint. A domain classifier reaches 97-98% and cannot be suppressed by gradient reversal; controlled imputation (missingness to 0%) leaves it at 97.7%; and a leakage-free within-cohort imputation cannot fill fields that are structurally unobservable in a cohort. Input-level augmentation (mixup) is the only method surviving Benjamini-Hochberg FDR correction. This archive contains all analysis scripts, paper figures (Figures 1-8, S1-S5), and result tables (table1-19, Table S1-S7). Raw cohort data are not redistributed (TCGA, SEER, and cBioPortal license terms); they are reproducible via the documented download scripts.",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "creators": [
+    {
+      "name": "Geng, Qiushuo"
+    }
+  ],
+  "keywords": [
+    "domain adaptation",
+    "domain generalization",
+    "survival prediction",
+    "gradient reversal",
+    "missingness",
+    "hepatocellular carcinoma",
+    "transfer learning",
+    "multi-institutional data"
+  ],
+  "language": "eng"
+}
