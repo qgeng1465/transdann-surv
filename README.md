@@ -5,6 +5,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21967922.svg)](https://doi.org/10.5281/zenodo.21967922)
 
 **English** · [**中文 (Chinese)**](README.zh-CN.md)
 
@@ -523,11 +524,13 @@ find the findings useful, please cite:
             Domain Fingerprint in Cancer Survival Prediction},
   year   = {2026},
   note   = {110,640 LIHC patients, 5 HCC cohorts, 3 cancer types},
+  doi    = {10.5281/zenodo.21967922},
 }
 ```
 
-A preprint may be posted to arXiv (cs.LG / stat.ML / q-bio.QM); a DOI can be minted via Zenodo by
-tagging a GitHub release.
+A DOI is minted by Zenodo for each tagged GitHub release. Current release:
+[10.5281/zenodo.21967922](https://doi.org/10.5281/zenodo.21967922). A preprint may be posted to
+arXiv (cs.LG / stat.ML / q-bio.QM).
 
 ---
 

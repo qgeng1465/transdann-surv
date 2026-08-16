@@ -5,6 +5,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21967922.svg)](https://doi.org/10.5281/zenodo.21967922)
 
 **中文** · [**English**](README.md)
 
@@ -461,10 +462,13 @@ ls results/figures/paper/                              # 论文图集
             Domain Fingerprint in Cancer Survival Prediction},
   year   = {2026},
   note   = {110,640 LIHC patients, 5 HCC cohorts, 3 cancer types},
+  doi    = {10.5281/zenodo.21967922},
 }
 ```
 
-预印本可能发布于 arXiv（cs.LG / stat.ML / q-bio.QM）；可通过为 GitHub release 打标签在 Zenodo 生成 DOI。
+每个带标签的 GitHub release 都会由 Zenodo 自动生成 DOI。当前版本：
+[10.5281/zenodo.21967922](https://doi.org/10.5281/zenodo.21967922)。预印本可能发布于
+arXiv（cs.LG / stat.ML / q-bio.QM）。
 
 ---
 
