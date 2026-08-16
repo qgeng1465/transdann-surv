@@ -1,0 +1,12 @@
+cohort,experiments,n,n_events,event_rate,age_median,age_missing_pct,sex_missing_pct,stage_missing_pct,grade_missing_pct
+TCGA_LIHC,"A,B,C,D",309,132,0.4272,61.0,0.0,0.0,20.7,17.5
+US_SEER,"A,B,C,D",108638,84811,0.7807,64.0,0.0,0.0,41.5,100.0
+hcc_msk_2024,"B,C",1357,802,0.591,,100.0,0.0,11.8,100.0
+lihc_amc_prv,"B,C",231,37,0.1602,55.0,0.0,100.0,100.0,100.0
+hcc_meric_2021,"B,C",105,82,0.781,69.0,0.0,0.0,100.0,100.0
+TCGA-BRCA,E,1098,,0.139,,0.0,0.0,0,100
+METABRIC,E,2509,,0.456,,0.0,0.0,0,
+TCGA-COAD,L,461,,0.222,,0.0,0.0,,
+CPTAC-COAD,L,110,,0.078,,0.0,0.0,,
+TCGA-LUAD,M,585,,0.36,,0.0,0.0,,
+LUAD-MSKCC-2020,M,604,,0.075,,0.0,0.0,,

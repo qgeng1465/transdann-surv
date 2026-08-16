@@ -1,0 +1,6 @@
+cohort,source_type,n,event_rate,age_median,age_missing_pct,sex_missing_pct,stage_missing_pct,grade_missing_pct
+TCGA_LIHC,Genomic DB (TCGA),309,0.427,61.0,0.0,0.0,20.7,17.5
+US_SEER,Population registry (SEER),108638,0.781,64.0,0.0,0.0,41.5,100.0
+hcc_meric_2021,"Independent cohort (Basel, CH)",105,0.781,69.0,0.0,0.0,100.0,100.0
+hcc_msk_2024,Independent cohort (MSK),1357,0.591,,100.0,0.0,11.8,100.0
+lihc_amc_prv,"Independent cohort (AMC, Korea)",231,0.16,55.0,0.0,100.0,100.0,100.0

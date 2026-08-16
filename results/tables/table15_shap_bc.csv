@@ -1,0 +1,7 @@
+experiment,mode,feature_rank,mean_abs_Age,mean_abs_Sex,mean_abs_Stage,mean_abs_Grade
+B_tcga_vs_external,baseline,"['Sex', 'Stage', 'Age', 'Grade']",5.36516,11.30689,6.08286,5.04498
+B_tcga_vs_external,dann,"['Sex', 'Stage', 'Age', 'Grade']",4.96495,11.40067,7.44786,3.0284
+B_tcga_vs_external,delta_dann_minus_baseline,,-0.40021,0.09378,1.365,-2.01658
+C_all_cohorts,baseline,"['Stage', 'Age', 'Sex', 'Grade']",5.62672,3.39949,8.80072,2.67058
+C_all_cohorts,dann,"['Stage', 'Age', 'Sex', 'Grade']",3.82572,2.7802,7.12743,2.26387
+C_all_cohorts,delta_dann_minus_baseline,,-1.801,-0.61929,-1.67329,-0.40671

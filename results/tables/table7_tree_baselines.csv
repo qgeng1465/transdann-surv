@@ -1,0 +1,13 @@
+experiment,model,cindex_val,note
+A,Transformer-ERM,0.6331,"TransDANNSurvV3, 4×8-head, DeepHit 32-bin"
+A,Transformer-DANN,0.6338,same backbone + GRL
+A,XGBOOST,0.6417,"4 features, same train/val split"
+A,RSF,0.6235,"4 features, same train/val split"
+B,Transformer-ERM,0.6388,"TransDANNSurvV3, 4×8-head, DeepHit 32-bin"
+B,Transformer-DANN,0.6356,same backbone + GRL
+B,XGBOOST,0.6166,"4 features, same train/val split"
+B,RSF,0.6235,"4 features, same train/val split"
+C,Transformer-ERM,0.6362,"TransDANNSurvV3, 4×8-head, DeepHit 32-bin"
+C,Transformer-DANN,0.6351,same backbone + GRL
+C,XGBOOST,0.6569,"4 features, same train/val split"
+C,RSF,0.6435,"4 features, same train/val split"

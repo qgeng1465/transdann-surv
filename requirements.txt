@@ -1,0 +1,28 @@
+# =============================================================================
+# TransDANN Failure Analysis: Cross-Population Cancer Survival Prediction
+# =============================================================================
+# Core ML / Data
+torch>=2.0.0
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.2
+scikit-survival>=0.22
+
+# Survival analysis
+lifelines>=0.27
+
+# Visualisation (web app + evaluation)
+matplotlib>=3.7
+seaborn>=0.12
+streamlit>=1.28
+
+# Data I/O
+openpyxl>=3.1
+pyarrow>=10.0
+requests>=2.28
+
+# Optional: GNN benchmark
+# torch-geometric  # uncomment if running benchmark with graph support
+
+# Optional: XGBoost (used in v10_final_delivery as baseline)
+# xgboost            # uncomment if re-training the XGB baseline

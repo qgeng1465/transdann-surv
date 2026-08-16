@@ -1,0 +1,8 @@
+cohort,part,group,n,events,other,rmst_tcga,rmst_other,delta,ci_low,ci_high,p_two_sided
+TCGA_LIHC,stage_strata,I,134.0,31.0,,,,,,,
+TCGA_LIHC,stage_strata,II,55.0,17.0,,,,,,,
+TCGA_LIHC,stage_strata,III+IV,56.0,27.0,,,,,,,
+TCGA_LIHC,rmst_diff,,,,US_SEER,26.42,18.28,8.15,6.75,9.66,0.0
+TCGA_LIHC,rmst_diff,,,,lihc_amc_prv,26.42,34.52,-8.07,-9.9,-6.54,0.0
+TCGA_LIHC,rmst_diff,,,,hcc_msk_2024,26.42,24.93,1.58,-0.08,3.16,0.06
+TCGA_LIHC,rmst_diff,,,,hcc_meric_2021,26.42,20.11,6.35,3.59,9.15,0.0

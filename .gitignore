@@ -1,0 +1,76 @@
+# =============================================================================
+# TransDANN-Surv — .gitignore
+# =============================================================================
+# Publication scope: code + English README + paper figures/tables are tracked.
+# Raw/processed data, internal (Chinese-language) working docs, logs, legacy
+# archives and large artifacts are NOT distributed — data is obtained through
+# scripts/download_*.py (TCGA / SEER / cBioPortal license terms apply).
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# --- Large data / model files (not distributed) ---
+*.csv
+*.xlsx
+*.pkl
+*.pth
+*.joblib
+*.npy
+*.npz
+*.zip
+*.tar.gz
+
+# --- Paper-deliverable tables (kept) ---
+!results/tables/*.csv
+!results/figures/paper/supplementary/*.csv
+
+# --- Heavy experiment output on the local data drive (symlinks, not shipped) ---
+/results/experiments
+/results/lihc_experiments
+
+# --- Internal / working material (kept locally, not pushed) ---
+# Internal Chinese-language docs and reports
+/docs/
+/results/complete_conclusion_report.md
+/results/logs/
+
+# Legacy archive (old V2/V3/V10 deliveries)
+/archive/
+
+# Intermediate result files and figures
+/results/*.json
+/results/lihc_meta.json
+/results/lihc_missingness.csv
+/results/figures/extended/
+/results/figures/lihc/
+/results/figures/figure_package/
+
+# --- Local backup of originals (never pushed) ---
+.local_backup/
+
+# --- Claude / editor-local state ---
+.claude/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Environment ---
+.env
+venv/
+.venv/
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Streamlit ---
+.streamlit/
+submission/
