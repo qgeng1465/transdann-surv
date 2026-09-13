@@ -2,12 +2,14 @@
 
 ## When Gradient-Reversal Adversarial Training (GRL/DANN) Fails: Population Distributions as the Root Domain Fingerprint (Missingness Is Its Visible Surface)
 
+<!-- README-I18N:START -->
+**English** | [汉语](./README.zh.md)
+<!-- README-I18N:END -->
+
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21967922.svg)](https://doi.org/10.5281/zenodo.21967922)
-
-**English** · [**中文 (Chinese)**](README.zh-CN.md)
 
 > **English abstract.** In multi-institutional cancer survival prediction, the *distribution of
 > cohort-level covariates* (age, stage, event rate), of which missingness patterns are only the most

@@ -2,12 +2,14 @@
 
 ## When Gradient-Reversal Adversarial Training (GRL/DANN) Fails: Population Distributions as the Root Domain Fingerprint (Missingness Is Its Visible Surface)
 
+<!-- README-I18N:START -->
+[English](./README.md) | **汉语**
+<!-- README-I18N:END -->
+
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21967922.svg)](https://doi.org/10.5281/zenodo.21967922)
-
-**中文** · [**English**](README.md)
 
 > **中文摘要。** 在多机构癌症生存预测中，*队列级协变量的分布*（年龄、分期、事件率）——其中缺失模式只是最显眼的表面——构成了根本性的**域指纹（domain fingerprint）**。我们提供大规模机制性证据表明：**梯度反转域对抗训练（GRL/DANN）**——以及更一般地，所有试图**将域身份从学习到的表征中解耦**的方法——都无法在 **110,640 例肝癌患者 / 5 个队列 / 3 种癌症类型**上改进跨人群生存预测：域分类器可达到 97–98% 的准确率，且无法被梯度反转所压制；受控插补（缺失率 → 0%）之后其准确率仍为 97.7%；而无泄漏的队列内插补无法填补在队列中结构性不可观测的字段（SEER 的 Grade，100% 缺失），此时域指纹被完美保留。相比之下，**输入级增强（mixup）是唯一通过 Benjamini–Hochberg FDR 校正的方法**（Δ=+0.019，q=0.012，在 5 队列划分中），而基于对齐/不变性的方法没有一致收益——其中一些（GroupDRO、V-REx、Fish）在异构多域数据上显著*有害*（Δ=−0.05 至 −0.07，q<0.05）。失败是结构性的：域身份编码在协变量分布本身之中，因此**对抗式特征解耦**无法将其消除，而**输入级增强**则绕过了它。
 
@@ -322,7 +324,8 @@ Input features → continuous MLP embedding / categorical Embedding(padding_idx=
 
 ```
 TransDANN_Liver_Cancer/
-├── README.md                    # 项目概览（本文件）
+├── README.md                    # 项目概览（English）
+├── README.zh.md                 # 项目概览（本文件）
 ├── LICENSE                      # MIT 许可证
 ├── requirements.txt             # Python 依赖
 ├── .gitignore                   # 排除原始数据、权重、内部文档、日志、遗留归档
