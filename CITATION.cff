@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software or analysis, please cite it using the metadata below."
+title: "When Domain Adversarial Training Fails: Population Distributions as the Fundamental Domain Fingerprint in Cancer Survival Prediction"
+authors:
+  - name: "Geng"
+doi: 10.5281/zenodo.21967922
+license: MIT
+type: software
+repository-code: "https://github.com/qgeng1465/transdann-surv"
+abstract: "Mechanistic evidence that gradient-reversal domain-adversarial training (GRL/DANN) fails in cross-population cancer survival prediction; input-level mixup augmentation is the only intervention surviving FDR correction."
