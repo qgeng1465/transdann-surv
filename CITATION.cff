@@ -2,7 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software or analysis, please cite it using the metadata below."
 title: "When Domain Adversarial Training Fails: Population Distributions as the Fundamental Domain Fingerprint in Cancer Survival Prediction"
 authors:
-  - name: "Geng"
+  - family-names: "Geng"
+    given-names: "Qiushuo"
 doi: 10.5281/zenodo.21967922
 license: MIT
 type: software
